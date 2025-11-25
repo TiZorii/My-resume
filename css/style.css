@@ -6,7 +6,6 @@ body {
 
 .wrapper {
     display: flex;
-    flex-direction: row-reverse;
     background: #FFFFFF;
     width: 1200px;
     margin: 0 auto;
@@ -17,6 +16,7 @@ body {
 
 .main-content {
     padding: 88px;
+    width: 750px;
 }
 
 .main-content-title {
@@ -41,7 +41,7 @@ body {
 .my-profesion {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 27px;
     line-height: 17px;
     color: #000000;
     margin: 0 0 18px 0;
@@ -50,7 +50,7 @@ body {
 .my-name {
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 55px;
     color: #000000;
     margin: 0 0 28px 0;
@@ -62,7 +62,6 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: #595959;
-    width: 584px;
 }
 
 /* projects */
@@ -177,12 +176,16 @@ body {
 /* Sidebar */
 
 .sidebar {
-    width: 370px;
+    width: 260px;
+    padding-right: 20px;
     background: #E0EBFE;
 }
 
 .my-photo {
-    margin-top: 40px;
+    margin-top: 60px;
+    margin-left: 40px;
+    max-width: 160px;
+    border-radius: 50%;
 }
 
 .contacts-container,
