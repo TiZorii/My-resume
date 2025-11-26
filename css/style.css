@@ -35,7 +35,7 @@ body {
 /* About me */
 
 .about-me-container {
-    margin-bottom: 64px;
+    margin-bottom: 40px;
 }
 
 .my-profesion {
@@ -181,14 +181,11 @@ body {
     background: #E0EBFE;
 }
 
-.my-photo {
-    margin-top: 60px;
-    margin-left: 40px;
-    max-width: 160px;
-    border-radius: 50%;
+
+.contacts-container {
+    margin: 100px 0 0 40px;
 }
 
-.contacts-container,
 .tech-skills-container,
 .soft-skills-container,
 .interests-container {
@@ -223,6 +220,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: #161D2A;
+    text-decoration: none;
 }
 
 .contacts-email {
@@ -230,7 +228,8 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #2979FF;
+    color: #161D2A;
+    text-decoration: none;
 }
 
 
